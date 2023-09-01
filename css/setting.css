@@ -1,0 +1,188 @@
+	body {
+  font-family: "Lato", sans-serif;
+          background-size: cover;
+          background-repeat: no-repeat;
+		  background-attachment: fixed;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fbfcfc;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+  margin-left: 0px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #00c1ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  color:black;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding-right:10px;
+  display:flex;
+  align-items:center;
+}
+
+/* 在高度小于 450px 的较小屏幕上，更改 sidenav 的样式（更少的填充和更小的字体大小）*/
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+#title{
+	font-size:40px;
+	height:51px;
+	display:flex;
+	background-color:#00C1FF;
+	text-align:center;
+	position:fixed;
+	top: 0;
+	width:100%;
+}
+#tlbkm{
+	width:100%;
+	margin-top:150px;
+}
+#tlbk{
+	font-size:25px;
+	margin-left:15%;
+	margin-right:15%;
+	background-color:#fafafa;
+	filter:alpha(opacity=70);
+    opacity:0.7;
+	border-radius:20px;
+	z-index:0;
+	position:relative;
+	margin-top:20px;
+}
+.desktop-style #tlbkb{
+	margin-top:0%;
+	font-size:25px;
+	background-color:#0091ff;
+	width:10%;
+	border-radius:12px;
+	color:white;
+	margin-left:15%;
+	text-align:center;
+	z-index:1;	
+	position:relative;
+
+}
+.mobile-style #tlbkb{
+	margin-top:0%;
+	font-size:18px;
+	background-color:#0091ff;
+	width:20%;
+	border-radius:12px;
+	color:white;
+	margin-left:15%;
+	text-align:center;
+	z-index:1;	
+	position:relative;
+
+}
+
+.desktop-style .options {
+      visibility: hidden;
+      position: absolute;
+      top: 46px; /* 调整选项框的位置 */
+      left: 0;
+      background-color: #fff;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	  width:100%;
+	  border-radius:20px;
+	  text-align:center;
+    }
+.mobile-style .options {
+      visibility: hidden;
+      position: absolute;
+      top: 46px; /* 调整选项框的位置 */
+      left: 0;
+      background-color: #fff;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	  width:100%;
+	  border-radius:20px;
+	  text-align:center;
+	  font-size:15px;
+    }
+    
+.option {
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+.desktop-style .buttonb{
+	width:100%;
+	font-size:30px;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+	color:black;
+	border-radius:20px;
+}
+.mobile-style .buttonb{
+	width:100%;
+	font-size:20px;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+	color:black;
+	border-radius:20px;
+}
+ .element {
+   transition: opacity 0.5s ease; /* 添加过渡效果以使透明度变化平滑 */
+}
+#tlbkm1{
+	width:100%;
+	margin-top:130px;
+	z-index:50;
+}
+        /* 修改进度条轨道的颜色 */
+input[type="range"]::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #00C1FF 0%, blue var(--progress), lightgray var(--progress), lightgray 100%);
+	border-radius:20px;
+}
+        /* 修改进度条的滑块或拇指的颜色 */
+input[type="range"]::-webkit-slider-thumb {
+background-color: white;
+}
+#foont{
+	filter:alpha(opacity=100);
+    opacity:1;
+	z-index:100;
+}
