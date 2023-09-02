@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+	new Crate({
+		server: '1144604965382389901', // NanoCraft
+		channel: '1147171376290082826' 
+	})
+</script>
+
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/setting.css">
+		<title>CSNKTools</title>
+		 
+	</head>
+	<body style="margin:0" class="element" >
+		<div id="mySidebar" class="sidebar" style="z-index:101;">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">菜单 x</a>
+			<a href="index.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-home" aria-hidden="true" /></i> 主页</a>
+			<a href="info.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-comments" aria-hidden="true" /></i>信息</a>
+			<a href="FAQ.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-feed" aria-hidden="true" /></i>疑难解答</a>
+			<a href="about.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-user-md" aria-hidden="true" /></i> 关于</a>
+		</div>
+		<div id="title" style="z-index:100">
+			<div id="main">
+				<button class="openbtn" onclick="openNav()">☰</button>
+			</div>
+			<p style="margin:0;margin-left:10;display:inline;"><font color="white">CSNKTools</font></p>
+		</div>
+		<div class="WaifuClass" style="margin-right:100;">
+		</div>
+        <div id="infotitle" style="margin-top:51px;">
+            <p style="margin:0;">使用方法</p>
+        </div>
+        <ol>
+            <li><h3>从<a href="https://github.com/CSneko/CSNKTools/tree/master" style="color:red">Github</a>上下载最新版本的CSNKTools插件</h3></li>
+            <li><h3>将下载好的插件放入'plugins'文件夹内</h3></li>
+            <li><h3>重启服务器，并等待插件加载</h3></li>
+            <li><h3>如果出现报错，再次重启即可</h3></li>
+        </ol>
+        <div id="infotitle" style="margin-top:51px;">
+            <p style="margin:0;">配置</p>
+        </div>
+        <h2 style="text-align: center;">主要配置(config.yml)</h2>
+        <pre><code>
+# 插件总开关
+Enable: true
+#设置语言(zh-cn/en-eu)
+language: zh-cn
+player:
+  join:
+    # 是否开启登陆消息
+    Enable: true
+    # 登陆时发送的消息
+    Message: 欢迎%player_name%加入服务器
+Scoreboard:
+  # 是否启用计分板
+  Enable: true
+  # 计分板标题
+  title: CSNKTools
+  # 计分板内容
+  line:
+    - 名称:%player_name%
+    - 等级:%player_level%
+    - 延迟:%player_ping%
+  # 计分板更新时间(tick)
+  update: 20</code></pre>
+		<a href="info_en.html"><h3 style="color:DeepSkyBlue;font-size:10px;text-align:center">English user please check there</h3></a>
+		<p style="color:DarkGray;font-size:5px;text-align:center">© 2023 CrystalNeko</p>
+		<script src="js/index.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/CSneko/csneko.github.io@main/js/pd.js"></script>
+
+	</body>
+    <link rel="stylesheet" href="highlight/styles/default.min.css">
+    <script src="highlight/highlight.min.js"></script>
+    
+    <script>
+      hljs.highlightAll();
+    </script>
+</html> 
+

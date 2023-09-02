@@ -2,68 +2,67 @@
 <html lang="zh">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
-		<meta name="description" content="如何登陆?<br>忘记密码怎么办?<br>延迟高怎么办?服务器出bug了怎么办?Nanoraft服务器疑难解答">
-		<meta name="keywords" content="Minecraft, 粘液科技, 单方块，我的世界, 服务器, NanoCraft">
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3383681890904274"
-     crossorigin="anonymous"></script>
-		<title>FAQ-NanoCraft服务器</title>
+<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+	new Crate({
+		server: '1144604965382389901', // NanoCraft
+		channel: '1147171376290082826' 
+	})
+</script>
+
+		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/setting.css">
-		 
+		<title>CSNKTools</title>
+		<style>
+			table {
+				background-color: black;
+				text-align: center;
+			}
+			
+			table th {
+				background-color: #ffffff;
+			}
+			
+			table td {
+				background-color: #ffffff;
+			}
+		</style>
 	</head>
-	<body style="margin:0">
-		<div id="mySidebar" class="sidebar">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">菜单 x</a>
+	<body style="margin:0" class="element" >
+		<div id="mySidebar" class="sidebar" style="z-index:101;">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">菜单 x</a>
 			<a href="index.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-home" aria-hidden="true" /></i> 主页</a>
-			<a href="info.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-file-text" aria-hidden="true" /></i> 信息</a>
-			<a href="stauts.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-feed" aria-hidden="true" /></i>状态</a>
+			<a href="info.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-comments" aria-hidden="true" /></i>信息</a>
 			<a href="FAQ.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-feed" aria-hidden="true" /></i>疑难解答</a>
-			<a href="talk.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-comments" aria-hidden="true" /></i>讨论</a>
-			<a href="ziyuan.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-tasks" aria-hidden="true" /></i> 资源</a>
 			<a href="about.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-user-md" aria-hidden="true" /></i> 关于</a>
-			<a href="setting.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-gear" aria-hidden="true" /></i> 设置</a>
 		</div>
-		<div id="title">
-			<div id="main">
-				<button class="openbtn" onclick="openNav()">☰</button>
-			</div>
-			<p style="margin:0;margin-left:10;display:inline"><font color="white">NanoCraft</font></p>
-		</div>
-	<div id="serverinfofont" style="margin-top:51px;">
-	<table border="1" class="infotable" style="width:100%;font-size:20px">
-	  <tr>
-	    <th>登录和注册</th>
-	    <td>输入"/register 密码 密码"进行注册，输入"/login 密码"进行登录</br>注意:此处的密码请设置成记得住的，以免忘记密码</br>如果出现延迟，为正常现象</br>如果无法注册和登陆，请等待几分钟，如果长时间无法注册和登陆，请向服主反馈(邮箱在<a href="about.html" style="color:red">"关于"</a>页面里)</br>如果还不会，<a href="reglog.html" style="color:red">请点击这里</a></td>
-	  </tr>
-	  <tr>
-	    <th>版本不兼容怎么办?</th>
-	    <td>查看你的版本是否为1.20.1正式版</br>基岩版请使用1.20.10正式版</td>
-	  </tr>
-	  <tr>
-	    <th>延迟高怎么办?</th>
-		<td>基岩版正常现象,java版请检查你的网络连接</td>
-	  </tr>
-	  <tr>
-	    <th><a href="https://www.zhihu.com/question/269769734" style="color:red">TPS</a>低怎么办?</th>
-		<td>可能是服务器在进行一些比较吃<a href="https://zhuanlan.zhihu.com/p/229457895" style="color:red">CPU</a>的活动，等待一会即可</td>
-	  </tr>
-	  <tr>
-	    <th>进不去怎么办?</th>
-		<td>如果其它服务器也无法进入，请检查网络连接</br>如果无法进入请等待几分钟</br>如果长时间无法进入，请向服主反馈(邮箱在<a href="about.html" style="color:red">"关于"</a>页面里)</td>
-	  </tr>
-	  <tr>
-	    <th>基岩版粘液科技显示成头颅</th>
-		<td>粘液科技是通过头颅实现的，而基岩版不支持在背包内显示头颅</td>
-	  </tr>
-	  <tr>
-	    <th>粘液科技部分物品挖掉后变成普通头颅</th>
-		<td>粘液科技的Bug,因此请尽可能不要使用粘液科技</td>
-	  </tr>
-	</table>
 	</div>
-	</table>
+	<div id="title" style="z-index:100">
+		<div id="main">
+			<button class="openbtn" onclick="openNav()">☰</button>
+		</div>
+		<p style="margin:0;margin-left:10;display:inline;"><font color="white">CSNKTools</font></p>
+	</div>
+		<table cellspacing="1" border="0" style="margin-top: 51px;font-size: 20px;">
+			<tr>
+				<th>计分板会出现闪烁现象</th>
+				<td>把刷新间隔调高点或升级服务器配置，这样可以减少闪烁频率</td>
+			</tr>
+			<tr>
+				<th>启动报错</th>
+				<td>如果是第一次启动，重启一下即可（请不要删除语言文件，因为这样会再次报错）。否则请检查配置文件，确定无误。如果依然出现，请检查是否安装PlacehooldAPI插件。如果都没解决，请发送issus到<a href="https://github.com/CSneko/CSNKTools" style="color: red;">Github仓库</a></td>
+			</tr>
+			<tr>
+				<th>占位符无效</th>
+				<td>请确保已安装PlacehooldAPI,并且已经下载对应的占位符(例如:%player_name%需要player占位符，使用/papi ecloud download player进行下载，并使用/papi reload重载占位符)</td>
+			</tr>
+		</table>
+		<a href="FAQ_en.html"><h3 style="color:DeepSkyBlue;font-size:10px;text-align:center">English user please check there</h3></a>
 		<p style="color:DarkGray;font-size:5px;text-align:center">© 2023 CrystalNeko</p>
 		<script src="js/index.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/CSneko/csneko.github.io@main/js/pd.js"></script>
+
 	</body>
+
 </html> 
+

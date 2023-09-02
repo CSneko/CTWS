@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+	new Crate({
+		server: '1144604965382389901', // NanoCraft
+		channel: '1147171533417095191' 
+	})
+</script>
+
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/setting.css">
+		<title>CSNKTools</title>
+		 
+	</head>
+	<body style="margin:0" class="element" >
+		<div id="mySidebar" class="sidebar" style="z-index:101;">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size: 32px;">Menu x</a>
+			<a href="index_en.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-home" aria-hidden="true" /></i> Home</a>
+			<a href="info_en.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-comments" aria-hidden="true" /></i>Info</a>
+			<a href="FAQ_en.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-feed" aria-hidden="true" /></i>FAQ</a>
+			<a href="about_en.html" style="border: 1px solid #f0f3f4; border-radius: 15px; padding: 8px;"><i class="fa fa-user-md" aria-hidden="true" /></i> About</a>
+		</div>
+		<div id="title" style="z-index:100">
+			<div id="main">
+				<button class="openbtn" onclick="openNav()">☰</button>
+			</div>
+			<p style="margin:0;margin-left:10;display:inline;"><font color="white">CSNKTools</font></p>
+		</div>
+		<div class="WaifuClass" style="margin-right:100;">
+		</div>
+        <div id="infotitle" style="margin-top:51px;">
+            <p style="margin:0;">How To Use</p>
+        </div>
+        <ol>
+            <li><h3>Download the latest version of the CSNKTools plugin from <a href="https://github.com/CSneko/CSNKTools/tree/master" style="color:red"> Github</a></h3></li>
+            <li><h3>Put the downloaded plugins in the 'plugins' folder</h3></li>
+            <li><h3>Restart the server and wait for the plugin to load</h3></li>
+            <li><h3>If an error occurs, restart it again</h3></li>
+        </ol>
+        <div id="infotitle" style="margin-top:51px;">
+            <p style="margin:0;">Configuration</p>
+        </div>
+        <h2 style="text-align: center;">Main Configuration(config.yml)</h2>
+        <pre><code>
+# Plugin master switch
+Enable: true
+#Set language (zh-cn/en-eu)
+language: zh-cn
+player:
+  join:
+   # Whether to open the login message
+   Enable: true
+   # Message sent when logging in
+   Message: Welcome %player_name% to join the server
+Scoreboard:
+  # Whether to enable the scoreboard
+  Enable: true
+  # Scoreboard title
+  title: CSNKTools
+  # Scoreboard content
+  line:
+   - 名称: %player_name%
+   - 等级: %player_level%
+   - 延迟: %player_ping%
+  # Scoreboard update time (tick)
+  update: 20</code></pre>
+		<a href="info.html"><h3 style="color:DeepSkyBlue;font-size:10px;text-align:center">中文用户请点击这里</h3></a>
+		<p style="color:DarkGray;font-size:5px;text-align:center">© 2023 CrystalNeko</p>
+		<script src="js/index.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/CSneko/csneko.github.io@main/js/pd.js"></script>
+
+	</body>
+    <link rel="stylesheet" href="highlight/styles/default.min.css">
+    <script src="highlight/highlight.min.js"></script>
+    
+    <script>
+      hljs.highlightAll();
+    </script>
+</html> 
+
