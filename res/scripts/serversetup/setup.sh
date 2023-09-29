@@ -6,5 +6,5 @@ wget https://w.csk.asia/res/scripts/serversetup/start.sh
 mkdir plugins
 cd plugins
 wget -O ctLib.jar https://w.csk.asia/res/plugins/ctLib.jar
-wget -O CSNKTools.jar https://w.csk.asia/res/plugins/CSNKTools
-wget -O toNeko.jar https://w.csk.asia/res/plugins/toNeko
+wget -O CSNKTools.jar https://w.csk.asia/res/plugins/CSNKTools.jar
+wget -O toNeko.jar https://w.csk.asia/res/plugins/toNeko.jar
