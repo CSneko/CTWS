@@ -1,0 +1,2 @@
+注意：使用此脚本一键开服代表你同意《Minecraft EULA》(https://www.minecraft.net/zh-hans/eula)，产生的所有后果均由用户承担，与原作者无关
+运行该脚本后服务器不会启动，后续请使用start.sh(start.bat)进行启动
