@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         container.innerHTML = "<table style='font-size: 20px;width: 100%;color: rgb(174, 185, 185);'><tr><th>名称</th><td>"+serverInfo.assets[0].name+"</td></tr>" +
         "<tr><th>最新版本</th><td>"+serverInfo.tag_name+"</td></tr>" +
         "<tr><th>版本主题</th><td>"+serverInfo.name +"</td></tr>"+
-        "<tr><th>发布时间</th><td>"+serverInfo.assets[0].updated_time+"</td></tr>" +
+        "<tr><th>发布时间</th><td>"+serverInfo.assets[0].updated_at+"</td></tr>" +
         "<tr><th>项目地址</th><td>"+serverInfo.html_url+"</td></tr>" +
         "<tr><th>下载链接</th><td>"+serverInfo.assets[0].browser_download_url+"</td></tr></table>";
     }

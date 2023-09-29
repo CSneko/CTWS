@@ -1,0 +1,74 @@
+/*背景图片*/
+#background {
+    background-image: url("https://w.crystalneko.online/images/f10.png"); /*图片url*/
+    background-attachment: fixed; /* 固定不滚动 */
+    background-position: center; /* 居中 */
+}
+/* 登录框 */
+.login-box {
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* 使用 rgba() 设置透明背景颜色 */
+}
+
+/* 登录框内部 */
+.in-login-box {
+    background-color: transparent; /* 设置透明背景颜色 */
+}
+.in-login-box h2 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    opacity: 0.7; 
+    font-size: 27px;
+}
+/*登陆按钮样式*/
+.in-login-box button{
+    border: none;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 30px;
+    width: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+/*注册按钮*/
+.in-login-box #register{
+    background-color:rgb(0, 241, 0);
+}
+.in-login-box #register:hover{
+    background-color:greenyellow; /* 悬停时的背景色 */
+}
+.in-login-box #register:active{
+    background-color:green; /* 按下时的背景色 */
+}
+/*登陆按钮*/
+.in-login-box #login{
+    background-color:rgb(0, 89, 255);
+}
+.in-login-box #login:hover{
+    background-color:rgb(91, 162, 255); /* 悬停时的背景色 */
+}
+.in-login-box #login:active{
+    background-color:rgb(33, 0, 180); /* 按下时的背景色 */
+}
+/*随便逛逛按钮*/
+.in-login-box #a{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+  
+/* 登录大标题 */
+#login-title {
+    color: goldenrod;
+    text-align: center;
+    margin-top: 5.5%;
+    opacity: 0.75; 
+    font-size: 40px;
+}
+
