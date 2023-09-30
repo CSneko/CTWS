@@ -57,6 +57,10 @@
 .in-login-box #login:active{
     background-color:rgb(33, 0, 180); /* 按下时的背景色 */
 }
+/*输入框*/
+#in-login-table{
+    text-align: center;
+}
 /*随便逛逛按钮*/
 .in-login-box #a{
     margin-left: 30%;
