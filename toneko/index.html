@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>toNeko插件主页</title>
+        <link href="css/index.css" rel="stylesheet">
+    </head>
+    <body style="background-color: rgb(210, 250, 237);">
+        <h1 style="margin-top:0;margin-left: 0;color:rgb(142, 162, 167)">toNeko 🐾</h1>
+        <div id="loadTitle"><h2>相关介绍</h2></div>
+        <div id="loadInfo" >
+            <p style="margin-left: 40%;color:rgb(0, 157, 255)">为什么会做这个插件?</p>
+            <p style="margin-left: 41%;color:rgb(0, 100, 94)">突发奇想做的这个插件</p>
+            <p style="margin-left: 40%;color:rgb(0, 157, 255)">它有啥用?</p>
+            <p style="margin-left: 41%;color:rgb(0, 100, 94)">单纯就添加点趣味性</p>
+            <p style="margin-left: 40%;color:rgb(0, 157, 255)">支持哪些版本？</p>
+            <p style="margin-left: 41%;color:rgb(0, 100, 94)">Fabric1.20.2,Bukkit1.8以上</p>
+        </div>
+        <div id="top-place" style="margin-top: 30%;"></div>
+        <div id="top-title"><h1>排行榜</h1></div>
+        <div class="top">
+            <table id="scoreTable" border="1">
+                <thead>
+                  <tr>
+                    <th>玩家名称</th>
+                    <th>总撅次数</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>    
+              <table id="scoreTable1" border="1">
+                <thead>
+                  <tr>
+                    <th>猫娘名称</th>
+                    <th>被撅次数</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>           
+        </div>
+        <div id="loadTitle"><h1>信息查询</h1></div>
+        <div id="getStick">
+            <form>
+                <label for="option">选择类型：</label>
+                <select id="option" style="background-color: rgb(157, 213, 253);border: none;font-size: 25px;border: none;border-radius: 10px;width: 24%;text-align: center;">
+                <option value="neko">猫娘</option>
+                <option value="player">玩家</option>
+                </select>
+                <br>
+                <label for="input">玩家名称：</label>
+                <input type="text" id="input" style="background-color: aliceblue;border: none;border-radius: 10px;font-size: 25px;margin-top: 10px;">
+                <br>
+                <button id="getStickButton" type="button">查询</button>
+            </form>
+            <div id="result"></div>
+        </div>
+        
+    </body>
+    <script src="js/animate.js"></script>
+    <script src="js/statistics.js"></script>
+</html>

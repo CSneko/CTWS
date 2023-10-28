@@ -1,0 +1,90 @@
+#loadTitle {
+    text-align: center;
+    margin-top: 100%;
+    font-size: 20px;
+    color:rgb(99, 131, 179);
+    /* 用于移动元素 */
+    animation: loadTitle 2s forwards;
+    position: relative;
+  }
+  
+  @keyframes loadTitle {
+    0% {
+      transform: translateX(0px) translateY(0px);
+    }
+    100% {
+      margin-top: 3%;
+    }
+  }
+  #loadInfo {
+    margin-top: 100%;
+    font-size: 20px;
+    width: 100%;
+    /* 用于移动元素 */
+    animation: loadInfo 3s forwards;
+    position: relative;
+  }
+  
+  @keyframes loadInfo {
+    0% {
+      transform: translateX(0px) translateY(0px);
+    }
+    100% {
+      margin-top: 3%;
+    }
+  }
+  .loadTable{
+    font-size: 20px;
+    text-align: center;
+    animation: loadTable 1s forwards;
+    position: relative;
+  }
+  @keyframes loadTable {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        
+    }
+  }
+  .loadTopTitle{
+    text-align: center;
+    margin-top: 100%;
+    font-size: 20px;
+    color:rgb(99, 131, 179);
+    animation: loadTopTitle 2s forwards;
+    position: relative;
+  }
+  @keyframes loadTopTitle{
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        margin-top: 3%;
+    }
+  }
+  #scoreTable,#scoreTable1{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+  }
+  #getStick{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100%;
+    animation: loadTopTitle 2s forwards;
+    position: relative;
+  }
+  #getStickButton{
+    margin-top: 10px;
+    background-color: rgb(96, 201, 201);
+    border:none;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 35%;
+  }
+  #result{
+    font-size: 20px;
+    color: rgb(51, 141, 148);
+  }
