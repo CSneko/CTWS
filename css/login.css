@@ -1,6 +1,6 @@
 /*背景图片*/
 #background {
-    background-image: url("https://w.crystalneko.online/images/f10.png"); /*图片url*/
+    background-image: url("https://w.crystalneko.online/a/images/f10.png"); /*图片url*/
     background-attachment: fixed; /* 固定不滚动 */
     background-position: center; /* 居中 */
 }
